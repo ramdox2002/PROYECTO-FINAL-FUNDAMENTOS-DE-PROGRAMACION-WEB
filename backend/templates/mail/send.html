@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Correo de Bienvenida</title>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+    <h1 style="color: #0070c9;">¡Bienvenido a Nuestra Plataforma!</h1>
+    <p>Estimado {{ name }} {{ lastname }},</p>
+    <p>Te damos la bienvenida a nuestra plataforma. Estamos emocionados de tenerte como parte de nuestra comunidad.</p>
+    <p>Aquí tienes algunos detalles de tu cuenta:</p>
+    <ul>
+        <li><strong>Nombre:</strong> {{ name }} {{ lastname }}</li>
+        <li><strong>Correo Electrónico:</strong> {{ email }}</li>
+        <li><strong>Teléfono:</strong> {{ phone }}</li>
+    </ul>
+    <p>Esperamos que disfrutes de los beneficios que ofrecemos y te mantendremos informado sobre nuestras actualizaciones y noticias. Si necesitas asistencia, no dudes en ponerte en contacto con nosotros.</p>
+    <p>{{ message }}</p>
+    <p>¡Gracias por unirte a nosotros!</p>
+</body>
+</html>

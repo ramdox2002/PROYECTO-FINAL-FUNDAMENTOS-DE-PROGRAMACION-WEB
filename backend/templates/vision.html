@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision de la Empresa</title>
+    <link rel="stylesheet" href="{% static "/css/vision.css" %}">
+</head>
+<body>
+    <header>
+        <section class="Vision">
+            <div class="contenedor">
+                <h1 class="Vision-titulo">Nuestra Visión</h1>
+                <p class="Vision-parrafo">
+                    La visión de nuestra empresa "Plantino" es que a travez de nuestra página web, se vuelva un lugar 
+                    confiable, seguro, de agrado para los visitantes. Es importante tener en cuenta a las plantas que 
+                    existe en nuestro planeta. Ya que ellas producen oxigeno, y nosotros respiramos de aquel oxigeno. 
+                    Las plantas dan color, vida, a nuestra vida, a nuestos hogares, centro de trabajo, centro de estudio. etc.
+                    Es por eso que ofrecemos todo tipo de plantas. Para que el cliente esté conciente de lo importante que son
+                    las plantas. 
+                    Nos visualizamos a las personas adquiriendo nuestros productos, y que lleven un vida saludable. y que nuestro hogar 
+                    que es el Planeta tierra, tome un respiro de tanta contaminación.
+                </p>
+                <div class="contenedor-imagenes">
+                <img src="{% static "img/vision/planta01.jpg" %}" alt="" width=380px  > 
+                <img src="{% static "img/vision/planta02.jpg" %}" alt="" width=380px >
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+</html>

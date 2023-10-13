@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #69c06f;
+    font-family: 'Arial, sans-serif';
+    font-size: 10px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.Vision{
+    background-color: #69c06f;
+    padding: 60px 0;
+}
+.Vision .Vision-titulo{
+    color:#000000 ;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Vision .Vision-parrafo{
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
